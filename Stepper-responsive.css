@@ -1,0 +1,3601 @@
+@media only screen and (min-width:250px) and (max-width:728px) 
+{
+    .Detail-Header
+    {
+        padding: 10px;
+        width:100%;
+        height:140px;
+        background-color:white;
+    }
+   
+     .logo
+    {
+        width:90px;
+        height:20px;
+        margin-inline:08px;                
+    }
+    .logo-btn
+    {
+        background-color:#08cc8c;
+        width:90px;
+        height:25px;    
+        display:flex;
+        justify-content:center;  
+        border-radius:4px;     
+    }
+    .logo-text
+    {
+        color:white;
+        font-size:12px;
+        text-align:center;
+        padding-block-end:01px;
+        padding-block-start:05px;
+    }
+    .logo-header
+    {
+    display: flex;
+    }
+    .Details-Stepper
+    {
+        display: flex;
+        justify-content:center;
+        padding-block:15px;
+    }
+    .Details-Step-1,.Details-Step-2,.Details-Step-3,.Details-Step-4
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:2px solid #eef0f2;
+        display:block;
+        margin-inline:5%;
+        padding-inline:08px;
+        outline: none;
+        font-size:16px;
+        padding-block:04px;
+        
+    }
+    .Details-Step-1
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        background-color:#027aff;
+    }
+    .Details-Steper-btn-1
+    {
+        background-color:#027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;
+        margin-left:10px  ;
+        border: 1px solid #027aff;
+    }
+    .Details-stepper-text-1,.Details-stepper-text-2,.Details-stepper-text-3,.Details-stepper-text-4
+    {
+     display:none;
+    }
+    .Form
+     {
+         width:90%;
+         height:auto;
+         background-color:white;
+         margin:auto;
+         padding:5px;
+         margin-block:20px;
+     }
+   
+    .check
+    {
+        color:white;
+    }   
+    .from-details-header
+    {
+        font-size:20px;
+        font-weight: bold;
+        padding:08px;
+    }
+    .from-details
+    {
+        font-size:13px;     
+        word-spacing: 2px;   
+        padding-inline-start:10px;
+        padding-block-end:5px;
+       
+    }
+    .hrq
+    {
+        background-color:lightgray;
+       
+    }
+   .form-name
+   {
+     display: block;
+     font-size:14px;
+     font-weight: bold;
+     padding-inline-start: 10px;
+     padding-top: 08px;
+     padding-bottom:4px;
+   }  
+   input[type=text] {
+    width:95%;
+    padding:08px;
+    border-radius:4px;
+    border:2px solid #f1f5f8;
+    margin-inline-start:10px;
+   }
+   input[type=email] {
+     width:95%;
+     padding:08px;
+     border-radius:4px;
+     border:2px solid #f1f5f8;
+     margin-inline-start:10px;
+    }
+ .Gender,.Country
+   {
+     display: block;
+     margin-inline-start:10px;
+     width:25%;
+     padding: 05px;
+     border:2px solid #f1f5f8;
+   }
+   .form-btn
+   {
+       font-size:14px;
+       font-weight: bold;
+       background-color:#f1f5f8;
+       border:2px solid #f1f5f8;
+       margin-inline-start: 10px;
+       margin-top:10px;
+       padding-block:04px;
+       padding-inline:10px;
+       border-radius:3px;
+   }
+ /* Templates */
+ .Templates-Side-Arrow
+ {
+    position: absolute;
+    right:10px;
+ }
+
+ .Templates-Header
+ {
+    padding: 10px;
+    width:100%;
+    height:140px;
+    background-color:white;
+ }
+ .Templates-Stepper
+   {
+       display: flex;
+       justify-content:center;
+       padding-block:15px;
+   }
+   .Templates-Step-1,.Templates-Step-2,.Templates-Step-3,.Templates-Step-4{
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid grey;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       
+   }
+   .Templates-Step-2
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #027aff;
+       color:white;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       background-color:#027aff;
+   }
+   .Templates-Step-1
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #50C878;
+       display:block;
+       margin-inline:5%;
+       padding-inline:02px;
+       outline: none;
+       font-size:16px;
+       padding-block:02px;
+       background-color:#50C878;
+   }
+   .Templates-Steper-btn-1
+   {
+       background-color:#027aff;
+       width:90px;
+       height:30px;
+       padding-inline:10px;
+       padding-block:5px;
+       color:white;
+       border-radius:3px;
+       margin-left:10px ;
+       border:1px solid #027aff;
+   }
+   .Templates-Content
+   {   
+       background-color:white;
+       width:75%;
+       height:auto;
+       margin: auto;
+       position:relative;
+       top:5%;
+       border-radius:05px;
+       padding:05px;
+       padding-block-end:25px;
+       margin-block:30px;
+   }
+   .Templete-t1
+   {
+       font-size:18px;
+       font-weight:bold;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-t2
+   {
+       font-size:13px;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-box-1
+   {
+       width:80%;
+       height:180px;
+       border-style: dashed;
+       border-color: lightgray;
+       margin: auto;
+       border-radius:3px;
+       background-color:#f1f5f8;
+       text-align: center;
+   }
+   .Scrath
+   {
+       font-size:20px;
+       background-color:white;     
+       width:40px;
+       height:40px;
+       display:block;
+       color:skyblue;
+       font-weight:bold;
+       text-align:center;
+       align-items:center;
+       border-radius:6px; 
+       margin-left:40%; 
+       padding-block:08px; 
+       margin-block:10px;    
+       margin-top:80px;       
+   }
+   #Template-file-input{
+    display:none;
+}
+   .templete-add
+   {
+       font-size:16px;
+       font-weight:bold;     
+   }  
+   .Templete-box-2,.Templete-box-3,.Templete-box-4,.Templete-box-5,.Templete-box-6
+   {
+       border:3px solid lightgray;
+       border-radius:3px;
+       width: 80%;
+       height:185px;
+       margin: auto;
+       position:relative;
+       margin-top: 10px;
+   }
+   .img-temp
+   {
+       width: 100%;
+       height:179px;
+       display:flex;
+       justify-content: center;
+   }
+   .temp-text-1
+   {
+       position: absolute;
+       width:100%;
+       background-color:#f1f5f8;
+       height:60px;
+       bottom:-0px;
+       text-align: center;
+       font-weight:bold;
+       font-size:16px;
+       padding-block:12px;
+   }
+   .Template-Overall-Box
+   {
+       display:flex;
+       flex-wrap: wrap;
+   }
+   .Templates-stepper-text-1,.Templates-stepper-text-2,.Templates-text-3,.Templates-stepper-text-4
+   {
+    display:none;
+   }
+   .check
+   {
+       color:white;
+   } 
+   /* Design */  
+   .Design
+   {
+     position: relative; 
+     padding:10px;     
+   }
+  .Design-Header
+    {
+        width: 100%;
+        height:140px;
+        background-color: white;
+        padding: 10px;
+    }
+    .Design-Side-Arrow
+    {
+        position: absolute;
+        right: 10px;
+    }
+    .Design-back-left,.Design-back-right
+    {
+        background-color: #f1f5f8;
+        width:40px;
+        height:40px;
+        display:inline-flex;
+        text-align: center;
+        justify-content: center;
+        border-radius:4px;
+        padding-block:08px;
+        margin-right:20px;
+    }
+    .Design-Stepper
+    {
+        display: flex;
+        justify-content:center;
+        padding-block:10px;
+    }
+    .Design-Step-3
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        background-color: #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        color:white;        
+    }
+    .Design-Step-4
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:2px solid #f1f5f8;
+        display:block;
+        margin-inline:5%;
+        padding-inline:8px;
+        outline: none;
+        font-size:16px;
+        padding-block:04px;
+        
+    }
+    .Design-Step-1,.Design-Step-2
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #50C878;
+        display:block;
+        margin-inline:5%;
+        padding-inline:02px;
+        outline: none;
+        font-size:16px;
+        padding-block:02px;
+        background-color:#50C878;
+    }
+    .Design-Steper-btn-1
+    {
+        background-color:#027aff;
+        border:1px solid #027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        text-align: center;
+        border-radius:3px;
+        margin-left:10px ;
+        display:inline-flex;
+        float:right;
+        margin-top:05px;
+    }
+    .check
+    {
+        color:white;
+    }   
+    .Design-stepper-text-1,.Design-stepper-text-2,.Design-stepper-text-3,.Design-stepper-text-4
+    {
+     display:none;
+    }
+    .Design-Side-Content
+    {
+        display: none;
+    }
+    .Design-templates
+    {
+      width: 80%;
+      height:420px;
+      background-color:white;
+      margin:auto;
+      margin-block:40px;
+      border-radius:6px;
+      padding: 10px;
+      
+    }
+    .txt{
+        text-align:center;
+        padding-block:20px;
+      }
+    .Design-Add-image
+    {
+        border-style:dashed;
+        border-color:lightgray;
+        width: 80%;
+        height:160px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius:5px;
+        background-color:#f1f5f8;
+    }
+    .Design-Add-image > input{
+        display: none;
+    }
+    .Design-Drop-image
+    {
+        width:40px;
+        height:40px;
+        background-color:white;
+        display:flex;
+        text-align: center;
+        padding-inline:08px;
+        padding-block:05px;
+        margin-left:42.5%;
+        margin-top:50px;
+    }
+    .Design-t1
+    {
+        font-size: 16px;
+        font-weight: bold;
+        padding-block: 15px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-top:20px;
+    }
+    .Design-t2
+    {
+        font-size: 12px;     
+        padding-block:05px;
+        letter-spacing: 0.5px;
+        text-align: center;
+       }
+    .Design-view-website
+    {
+        width: 80%;
+        height:60px;
+        border: 2px solid #027aff;
+        border-radius: 5px;
+        margin: auto;
+        margin-top:10px;
+        position: relative;
+    }
+    .Design-view-website-btn
+    {
+       background-color: #50C878; 
+       color: white;
+       padding-block:3.5px;
+       border-radius:4px; 
+       width:140px;
+       height:30px;
+       display: flex;
+       justify-content:space-evenly; 
+        margin:auto; 
+        margin-top:13px;    
+    }
+    /*  triger Events */
+    .Triger-Events
+    {       
+        position: relative; 
+    }
+    .Triger-Events-Header
+    {
+        width: 100%;
+        height:140px;
+        background-color: white;
+        padding: 10px;
+    }
+    .Triger-Events-side-arrows
+    {
+       display:flex;
+       position: absolute;
+       right:10px;       
+    }
+    .Triger-Events-back-left,.Triger-Events-back-right
+    {
+        background-color: #f1f5f8;
+        width:40px;
+        height:40px;
+        display:inline-flex;
+        text-align: center;
+        justify-content: center;
+        border-radius:4px;
+        padding-block:08px;
+        margin-right:20px;
+    }
+    .Triger-Events-Stepper
+    {
+        display: flex;
+        justify-content:center;
+        padding-block:10px;
+    }
+    .Triger-Events-Step-4
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        background-color: #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        color:white;        
+    }
+
+    .Triger-Events-Step-1,.Triger-Events-Step-2, .Triger-Events-Step-3
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #50C878;
+        display:block;
+        margin-inline:5%;
+        padding-inline:02px;
+        outline: none;
+        font-size:16px;
+        padding-block:02px;
+        background-color:#50C878;
+    }
+    .Triger-Events-Steper-btn-1
+    {
+        background-color:#027aff;
+        border: 1px solid #027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;
+        margin-left:10px ;
+        display:inline-flex;
+        float:right;
+        margin-top:05px;
+    }
+    .check
+    {
+        color:white;
+    }   
+    .Triger-Events-stepper-text-1,.Triger-Events-stepper-text-2,.Triger-Events-stepper-text-3,.Triger-Events-stepper-text-4
+    {
+     display:none;
+    }
+    
+    .Triger-Events-template-box-1,.Triger-Events-template-box-2
+    {
+        width:90%;
+        height:80px;
+        margin: auto;
+        display:flex;       
+        padding:10px;   
+        background-color:white;
+        border-radius:4px;   
+        margin-block:20px;
+        position: relative;
+    }
+    .Triger-Events-template-box-3
+    {
+        width:88%;
+        height:75px;
+        margin: auto;
+        display:flex;       
+        padding:10px; 
+        border-radius:4px;   
+        margin-block:20px;
+        position: relative;
+        background-color:rgb(210, 235, 243);
+        border-style: dashed;
+        border-color: lightskyblue;
+    }
+    .Triger-Events-t4-icons
+    {
+        background-color:rgb(252, 223, 223);
+        color:red;
+        display:block;
+        width:30px;
+        height:30px;
+        text-align: center;
+        padding-block:03px;
+        border-radius:50%;
+        margin-block:15px;
+    }
+    .Triger-Events-template-box-4
+    {
+        width:105%;
+        height:80px;
+        margin: auto;
+        display:flex;       
+        padding:10px; 
+        border-radius:4px;   
+        margin-block:20px;
+        position: relative;
+        background-color:white;
+        position: absolute;
+        left:-5px;
+        bottom:-150px;
+        display:none;
+    }
+    .Triger-Events-t6-icons
+    {
+        color:lightgray;
+    }
+    .Triger-Events-absolute-text
+    {
+      font-weight: bold;
+    }
+    .Triger-Events-templates-text
+    {
+        padding-block:15px;
+        padding-inline:10px;
+    }
+    .Triger-Events-t1-icons
+    {
+        color:#50C878;
+        background-color:rgb(198, 238, 198);
+        display:block;
+        width:30px;
+        height:30px;
+        text-align: center;
+        padding-block:03px;
+        border-radius:50%;
+        margin-block:15px;
+    }
+    .Triger-Events-t2-icons
+    {
+        color:#027aff;
+        background-color:rgb(168, 223, 236);
+        display:block;
+        width:30px;
+        height:30px;
+        text-align: center;
+        padding-block:03px;
+        border-radius:50%;
+        margin-block:15px;
+    }
+    .Triger-Events-t3-icons
+    {
+        color:#027aff;
+        background-color:white;
+        display:block;
+        width:40px;
+        height:40px;
+        text-align: center;
+        font-size:18px;
+        padding-block:08px;
+        border-radius:50%;
+        margin-block:08px;
+        margin-left:45%;
+    }
+    .Triger-Events-tem-t1
+    {
+        font-size:14px;
+        font-weight: bold;
+    }
+    .Triger-Events-tem-t2
+    {
+        font-size:13px;
+        color: lightgrey;
+    }
+    .templates-text
+    {
+        padding-inline-start: 10px;
+        padding-block:12px;
+    }
+    .Triger-Events-end-icon
+    {
+     position: absolute;
+     right: 10px;
+    }
+    .Triger-Events-side-content
+    {
+        display: none;
+    }
+    }
+@media only screen and (min-width:729px) and (max-width:968px) 
+{
+.Detail-Header
+    {
+        
+        width:100%;
+        height:80px;
+        background-color:white;
+        display: flex;
+        justify-content:space-between;
+    }
+   
+     .logo
+    {
+        width:90px;
+        height:20px;
+        margin-inline:10px; 
+        margin-block:25px;           
+    }
+    .logo-btn
+    {
+       background-color:#08cc8c;
+       width:90px;
+       height:25px;    
+       display:flex;
+       justify-content:center;  
+       border-radius:6px;   
+       margin-block:25px; 
+    }
+    .logo-text
+    {
+        color:white;
+        font-size:12px;
+        text-align:center;
+        padding-block-end:01px;
+        padding-block-start:05px;
+    }
+    .logo-header
+    {
+    display: flex;
+    }
+    .Details-Stepper
+    {
+        display: flex;
+        justify-content:center;
+        padding-block:25px;
+    }
+    .Details-Step-1,.Details-Step-2,.Details-Step-3,.Details-Step-4
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:2px solid #eef0f2;
+        display:block;
+        margin-inline:5%;
+        padding-inline:08px;
+        outline: none;
+        font-size:16px;
+        padding-block:04px;
+        
+    }
+    .Details-Step-1
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        background-color:#027aff;
+    }
+    .Details-Steper-btn-1
+    {
+        background-color:#027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;
+        margin-top:25px ;
+        margin-right:10px;
+        border: 1px solid #027aff;
+    }
+    .Details-stepper-text-1,.Details-stepper-text-2,.Details-stepper-text-3,.Details-stepper-text-4
+    {
+     display:none;
+    }
+    .Form
+     {
+         width:90%;
+         height:auto;
+         padding: 10px;
+         background-color:white;
+         margin:auto;
+         margin-top:40px;
+     }
+   
+    .check
+    {
+        color:white;
+    }   
+    .from-details-header
+    {
+        font-size:20px;
+        font-weight: bold;
+        padding:08px;
+    }
+    .from-details
+    {
+        font-size:13px;     
+        word-spacing: 2px;   
+        padding-inline-start:10px;
+        padding-block-end:5px;
+       
+    }
+    .hrq
+    {
+        background-color:lightgray;
+       
+    }
+   .form-name
+   {
+     display: block;
+     font-size:14px;
+     font-weight: bold;
+     padding-inline-start: 10px;
+     padding-top: 08px;
+     padding-bottom:4px;
+   }  
+   input[type=text] {
+    width:95%;
+    padding:08px;
+    border-radius:4px;
+    border:2px solid #f1f5f8;
+    margin-inline-start:10px;
+   }
+   input[type=email] {
+     width:95%;
+     padding:08px;
+     border-radius:4px;
+     border:2px solid #f1f5f8;
+     margin-inline-start:10px;
+    }
+ .Gender,.Country
+   {
+     display: block;
+     margin-inline-start:10px;
+     width:25%;
+     padding: 05px;
+     border:2px solid #f1f5f8;
+   }
+   .form-btn
+   {
+       font-size:14px;
+       font-weight: bold;
+       background-color:#f1f5f8;
+       border:2px solid #f1f5f8;
+       margin-inline-start: 10px;
+       margin-top:10px;
+       padding-block:04px;
+       padding-inline:10px;
+       border-radius:3px;
+   }
+ /* Templates */
+ .Templates-Side-Arrow
+ {
+   margin-inline:10px;
+   margin-top:25px;
+ }
+ 
+ .Templates-Header
+ {
+    padding: 10px;
+    width:100%;
+    height:90px;
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+ }
+ .Templates-Stepper
+   {
+       display: flex;
+       justify-content:center;
+       padding-block:17px;
+   }
+   .Templates-Step-1,.Templates-Step-2,.Templates-Step-3,.Templates-Step-4{
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid grey;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       
+   }
+   .Templates-Step-2
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #027aff;
+       color:white;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       background-color:#027aff;
+   }
+   .Templates-Step-1
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #50C878;
+       display:block;
+       margin-inline:5%;
+       padding-inline:02px;
+       outline: none;
+       font-size:16px;
+       padding-block:02px;
+       background-color:#50C878;
+   }
+   .Templates-Steper-btn-1
+   {
+       background-color:#027aff;
+       width:90px;
+       height:30px;
+       padding-inline:10px;
+       padding-block:5px;
+       color:white;
+       border-radius:3px;
+       margin-left:10px ;
+       border:1px solid #027aff;
+       margin-top:20px;
+   }
+   .Templates-Content
+   {   
+       background-color:white;
+       width:75%;
+       height:auto;
+       margin: auto;
+       position:relative;
+       top:5%;
+       border-radius:05px;
+       padding:05px;
+       padding-block-end:25px;
+       margin-block:30px;
+   }
+   .Templete-t1
+   {
+       font-size:18px;
+       font-weight:bold;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-t2
+   {
+       font-size:13px;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-box-1
+   {
+       width:175px;
+       height:183px;
+       border-style: dashed;
+       border-color: lightgray;
+       margin: auto;
+       border-radius:3px;
+       background-color:#f1f5f8;
+       text-align: center;
+       margin-top:10px;
+   }
+   #Template-file-input{
+    display:none;
+}
+   .Scrath
+   {
+       font-size:20px;
+       background-color:white;     
+       width:40px;
+       height:40px;
+       display:block;
+       color:skyblue;
+       font-weight:bold;
+       text-align:center;
+       align-items:center;
+       border-radius:6px; 
+       margin-left:40%; 
+       padding-block:08px; 
+       margin-block:10px;    
+       margin-top:80px;       
+   }
+
+   .templete-add
+   {
+       font-size:16px;
+       font-weight:bold;     
+   }  
+   .Templete-box-2,.Templete-box-3,.Templete-box-4,.Templete-box-5,.Templete-box-6
+   {
+       border:3px solid lightgray;
+       border-radius:3px;
+       width:175px;
+       height:185px;
+       margin: auto;
+       position:relative;
+       margin-top: 10px;
+   }
+   .img-temp
+   {
+       width: 100%;
+       height:179px;
+       display:flex;
+       justify-content: center;
+   }
+   .temp-text-1
+   {
+       position: absolute;
+       width:100%;
+       background-color:#f1f5f8;
+       height:60px;
+       bottom:0px;
+       text-align: center;
+       font-weight:bold;
+       font-size:16px;
+       padding-block:15px;
+   }
+   .Template-Overall-Box,.Over-all-Template-2
+   {
+       display:flex;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+   }
+   .Templates-stepper-text-1,.Templates-stepper-text-2,.Templates-text-3,.Templates-stepper-text-4
+   {
+    display:none;
+   }
+   .check
+   {
+       color:white;
+   }
+   /* Design */  
+   .Design
+   {
+    position: relative;    
+   }
+  .Design-Header
+    {
+        width: 100%;
+        height:75px;
+        background-color: white;       
+        display: flex;
+        justify-content: space-between;
+    }
+    .Design-Stepper
+    {
+       display:flex;       
+    }
+    .Design-Side-Arrow
+    {
+        margin-top:25px;
+        margin-left: 20px;
+    }
+    .Design-back-left,.Design-back-right
+    {
+        background-color: #f1f5f8;
+        width:40px;
+        height:40px;
+        display:inline-flex;
+        text-align: center;
+        justify-content: center;
+        border-radius:4px;
+        padding-block:08px;
+        margin-right:20px;
+        margin-top:15px;
+    }
+    .Design-Stepper
+    {
+        display: flex;
+        justify-content:center;
+        padding-block:20px;
+    }
+    .Design-Step-3
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        background-color: #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        color:white;        
+    }
+    .Design-Step-4
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:2px solid #f1f5f8;
+        display:block;
+        margin-inline:5%;
+        padding-inline:08px;
+        outline: none;
+        font-size:16px;
+        padding-block:04px;
+        
+    }
+    .Design-Step-1,.Design-Step-2
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #50C878;
+        display:block;
+        margin-inline:5%;
+        padding-inline:02px;
+        outline: none;
+        font-size:16px;
+        padding-block:02px;
+        background-color:#50C878;
+    }
+    .Design-Steper-btn-1
+    {
+        background-color:#027aff;
+        border:1px solid #027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;      
+        display:inline-flex;
+        float:right;
+        margin-top:20px;
+        margin-right:10px;
+    }
+    .check
+    {
+        color:white;
+    }   
+    .txt{
+        text-align:center;
+        padding-block:20px;
+      }
+    .Design-stepper-text-1,.Design-stepper-text-2,.Design-stepper-text-3,.Design-stepper-text-4
+    {
+     display:none;
+    }
+    .Design-Side-Content
+    {
+        display: none;
+    }
+    .Design-templates
+    {
+      width:65%;
+      height:420px;
+      background-color:white;
+      margin:auto;
+      margin-block:40px;
+      border-radius:6px;
+      padding: 10px;
+      
+    }
+    .Design-Add-image
+    {
+        border-style:dashed;
+        border-color:lightgray;
+        width: 80%;
+        height:190px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius:5px;
+        background-color:#f1f5f8;
+    }
+    .Design-Add-image > input{
+        display: none;
+    }
+    .Design-Drop-image
+    {
+        width:40px;
+        height:40px;
+        background-color:white;
+        display:flex;
+        text-align: center;
+        padding-inline:08px;
+        padding-block:05px;
+        margin-left:45%;
+        margin-top:25%;
+    }
+    .Design-t1
+    {
+        font-size: 16px;
+        font-weight: bold;
+        padding-block: 15px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-top:20px;
+    }
+    .Design-t2
+    {
+        font-size: 12px;     
+        padding-block:05px;
+        letter-spacing: 0.5px;
+        text-align: center;
+       }
+    .Design-view-website
+    {
+        width: 80%;
+        height:60px;
+        border: 2px solid #027aff;
+        border-radius: 5px;
+        margin: auto;
+        margin-top:10px;
+        position: relative;
+    }
+    .Design-view-website-btn
+    {
+       background-color: #50C878; 
+       color: white;
+       padding-block:3.5px;
+       border-radius:4px; 
+       width:140px;
+       height:30px;
+       display: flex;
+       justify-content:space-evenly; 
+        margin:auto; 
+        margin-top:13px;    
+    }
+     /*  triger Events */
+     .Triger-Events
+     {         
+         position: relative;        
+     }
+     .Triger-Events-Header
+     {
+         width: 100%;
+         height:80px;
+         background-color: white;
+         display: flex;
+         justify-content: space-between;
+     }
+     .Triger-Events-side-arrows
+     {
+        display:flex;  
+        margin-top:25px;
+        margin-left:20px;     
+     }
+     .Triger-Events-back-left,.Triger-Events-back-right
+     {
+         background-color: #f1f5f8;
+         width:40px;
+         height:40px;
+         display:inline-flex;
+         text-align: center;
+         justify-content: center;
+         border-radius:4px;
+         padding-block:08px;
+         margin-right:15px;
+         margin-top:15px;
+     }
+     .Triger-Events-Stepper
+     {
+         display: flex;
+         justify-content:center;
+         padding-block:20px;
+     }
+     .Triger-Events-Step-4
+     {
+         width:30px;
+         height:30px;
+         border-radius:50%;
+         border:1px solid #027aff;
+         background-color: #027aff;
+         display:block;
+         margin-inline:5%;
+         padding-inline:10px;
+         outline: none;
+         font-size:16px;
+         padding-block:05px;
+         color:white;        
+     }
+ 
+     .Triger-Events-Step-1,.Triger-Events-Step-2, .Triger-Events-Step-3
+     {
+         width:30px;
+         height:30px;
+         border-radius:50%;
+         border:1px solid #50C878;
+         display:block;
+         margin-inline:5%;
+         padding-inline:02px;
+         outline: none;
+         font-size:16px;
+         padding-block:02px;
+         background-color:#50C878;
+     }
+     .Triger-Events-Steper-btn-1
+     {
+         background-color:#027aff;
+         border:1px solid #027aff;
+         width:90px;
+         height:30px;
+         padding-inline:10px;
+         padding-block:5px;
+         color:white;
+         border-radius:3px;
+         margin-right:10px ;
+         display:inline-flex;
+         position: relative;
+         top:-5px;
+    }
+     .check
+     {
+         color:white;
+     }   
+     .Triger-Events-stepper-text-1,.Triger-Events-stepper-text-2,.Triger-Events-stepper-text-3,.Triger-Events-stepper-text-4
+     {
+      display:none;
+     }
+     
+     .Triger-Events-template-box-1,.Triger-Events-template-box-2
+     {
+         width:90%;
+         height:80px;
+         margin: auto;
+         display:flex;       
+         padding:10px;   
+         background-color:white;
+         border-radius:4px;   
+         margin-block:20px;
+         position: relative;
+     }
+     .Triger-Events-template-box-3
+     {
+         width:88%;
+         height:75px;
+         margin: auto;
+         display:flex;       
+         padding:10px; 
+         border-radius:4px;   
+         margin-block:20px;
+         position: relative;
+         background-color:rgb(210, 235, 243);
+         border-style: dashed;
+         border-color: lightskyblue;
+     }
+     .Triger-Events-t4-icons
+     {
+         background-color:rgb(252, 223, 223);
+         color:red;
+         display:block;
+         width:30px;
+         height:30px;
+         text-align: center;
+         padding-block:03px;
+         border-radius:50%;
+         margin-block:15px;
+     }
+     .Triger-Events-templates-text
+     {
+         padding-block:15px;
+         padding-inline:10px;
+     }
+     .Triger-Events-template-box-4
+     {
+         width:102%;
+         height:80px;
+         margin: auto;
+         display:flex;       
+         padding:10px;        
+         border-radius:4px;   
+         margin-block:20px;       
+         background-color:white;
+         position: absolute;      
+         padding-inline-end:20px;  
+         bottom:-150px;
+         left:-10px;
+         right:-1px;
+         display:none;
+     }
+     .Triger-Events-t6-icons
+     {
+         color:lightgray;
+     }
+     .Triger-Events-absolute-text
+     {
+       font-weight: bold;
+     }
+     .Triger-Events-t1-icons
+     {
+         color:#50C878;
+         background-color:rgb(198, 238, 198);
+         display:block;
+         width:30px;
+         height:30px;
+         text-align: center;
+         padding-block:03px;
+         border-radius:50%;
+         margin-block:15px;
+     }
+     .Triger-Events-t2-icons
+     {
+         color:#027aff;
+         background-color:rgb(168, 223, 236);
+         display:block;
+         width:30px;
+         height:30px;
+         text-align: center;
+         padding-block:03px;
+         border-radius:50%;
+         margin-block:15px;
+     }
+     .Triger-Events-t3-icons
+     {
+         color:#027aff;
+         background-color:white;
+         display:block;
+         width:40px;
+         height:40px;
+         text-align: center;
+         font-size:18px;
+         padding-block:08px;
+         border-radius:50%;
+         margin-block:08px;
+         margin-left:45%;
+     }
+     .Triger-Events-tem-t1
+     {
+         font-size:14px;
+         font-weight: bold;
+     }
+     .Triger-Events-tem-t2
+     {
+         font-size:13px;
+         color: lightgrey;
+     }
+     .templates-text
+     {
+         padding-inline-start: 10px;
+         padding-block:12px;
+     }
+     .Triger-Events-end-icon
+     {
+      position: absolute;
+      right: 10px;
+     }
+     .Triger-Events-side-content
+     {
+         display: none;
+     }
+}
+@media only screen and (min-width:969px) and (max-width:1024px) 
+{
+    .Detail-Header
+    {
+        padding: 10px;
+        width:100%;
+        height:75px;
+        background-color:white;
+        display:flex;
+        justify-content: space-between;
+    }
+    
+     .logo
+    {
+        width:90px;
+        height:20px;
+        margin-inline:10px;            
+    }
+    .logo-btn
+    {
+        background-color:#08cc8c;
+        width:90px;
+        height:25px;    
+        display:flex;
+        justify-content:center;  
+        border-radius:4px;    
+    }
+    .logo-text
+    {
+        color:white;
+        font-size:12px;
+        text-align:center;
+        padding-block-end:01px;
+        padding-block-start:05px;
+    }
+    .logo-header
+    {
+    display: flex;
+    }
+    .Details-Stepper
+    {
+        display: flex;
+        justify-content:center;
+        padding-block:10px;
+        width:80%;
+    }
+    .Details-Step-1,.Details-Step-2,.Details-Step-3,.Details-Step-4
+  
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:2px solid #eef0f2;
+        display:block;
+        margin-inline:5%;
+        padding-inline:08px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        
+    }
+    .Details-Step-1
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        background-color:#027aff;
+    }
+    .Details-stepper-text-1
+    {
+        font-size:14px;
+        font-weight:bold;
+        color:black;
+        letter-spacing:0.5px;
+        padding-block:06px;
+        padding-inline-end:05px;
+    }
+    .Details-stepper-text-2,.Details-stepper-text-3
+     {
+       font-size:15px;
+       font-weight:bold;
+       color:lightgray;
+       letter-spacing:0.5px;
+       padding-block:06px;
+       padding-inline-end:05px;
+   }
+   .Details-stepper-text-4
+   {
+       font-size:15px;
+       font-weight:bold;
+       color:lightgray;
+       letter-spacing:0.5px;
+       padding-block:5px;
+       padding-inline-end:05px;
+   }
+    .Details-Steper-btn-1
+    {
+        background-color:#027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;
+        margin-left:10px  ;
+        margin-top:10px;
+        font-weight: bold;
+        letter-spacing:1px;
+        border: 1px solid #027aff;
+    }
+   
+    .Form
+     {
+         width:80%;
+         padding: 10px;
+         height:auto;
+         background-color:white;
+         margin:auto;
+         margin-top:40px;
+         border-radius: 4px;
+     }
+   
+    .check
+    {
+        color:white;
+    }   
+    .from-details-header
+    {
+        font-size:24px;
+        font-weight: bold;
+        padding:10px;
+    }
+    .from-details
+    {
+        font-size:16px;     
+        word-spacing: 2px;   
+        padding-inline-start:10px;
+        padding-block-end:15px;
+       
+    }
+    .hrq
+    {
+        background-color:lightgray;
+       
+    }
+   .form-name
+   {
+     display: block;
+     font-size:14px;
+     font-weight: bold;
+     padding-inline-start: 10px;
+     padding-top: 08px;
+     padding-bottom:4px;
+   }  
+   input[type=text] {
+    width:95%;
+    padding:08px;
+    border-radius:4px;
+    border:2px solid #f1f5f8;
+    margin-inline-start:10px;
+    margin-block-end:5px;
+   }
+   input[type=email] {
+    display: block;   
+    width:95%;
+    padding:08px;
+    border-radius:4px;
+    border:2px solid #f1f5f8;
+    margin-inline-start:10px;
+   }
+ .Gender,.Country
+   {
+     display: block;
+     margin-inline-start:10px;
+     width:25%;
+     padding: 05px;
+     margin-block-end:5px;
+     border:2px solid #f1f5f8;
+   }
+   .form-btn
+   {
+       font-size:14px;
+       font-weight: bold;
+       background-color:#f1f5f8;
+       border:2px solid #f1f5f8;
+       margin-inline-start: 10px;
+       margin-top:10px;
+       padding-block:04px;
+       padding-inline:10px;
+       border-radius:3px;
+   }
+   /* Templates */
+ .Templates-Side-Arrow
+ {
+     margin-inline: 10px;
+     margin-block:15px;
+ }
+ .Templates
+ {
+    width:100%;
+    padding-block-end:15px;
+ }
+ .Templates-Header
+ {
+    padding: 10px;
+    width:100%;
+    height:75px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+ }
+ .Templates-Stepper
+   {
+       display: flex;
+       justify-content:center;
+       padding-block:12px;
+       width:50%;
+   }
+   .Templates-Step-1,.Templates-Step-2,.Templates-Step-3,.Templates-Step-4{
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid grey;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       
+   }
+   .Templates-Step-2
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #027aff;
+       color:white;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       background-color:#027aff;
+   }
+   .Templates-Step-1
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #50C878;
+       display:block;
+       margin-inline:5%;
+       padding-inline:02px;
+       outline: none;
+       font-size:16px;
+       padding-block:02px;
+       background-color:#50C878;
+   }
+   .Templates-Steper-btn-1
+   {
+       background-color:#027aff;
+       width:90px;
+       height:30px;
+       padding-inline:10px;
+       padding-block:5px;
+       color:white;
+       border-radius:3px;
+       margin-left:10px ;
+       border:1px solid #027aff;
+       margin-top:12px;
+   }
+   .Templates-Content
+   {   
+       background-color:white;
+       width:65%;
+       height:auto;
+       margin: auto;
+       position:relative;
+       top:5%;
+       border-radius:05px;
+       padding:05px;
+       padding-block-end:25px;
+       margin-block:30px;
+   }
+   .Templete-t1
+   {
+       font-size:18px;
+       font-weight:bold;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-t2
+   {
+       font-size:13px;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-box-1
+   {
+       width:175px;
+       height:178px;
+       border-style: dashed;
+       border-color: lightgray;
+       margin: auto;
+       border-radius:3px;
+       background-color:#f1f5f8;
+       text-align: center;
+       margin-top:10px;
+   }
+   .Scrath
+   {
+       font-size:20px;
+       background-color:white;     
+       width:40px;
+       height:40px;
+       display:block;
+       color:skyblue;
+       font-weight:bold;
+       text-align:center;
+       align-items:center;
+       border-radius:6px; 
+       margin-left:40%; 
+       padding-block:08px; 
+       margin-block:10px;    
+       margin-top:80px;       
+   }
+
+   .templete-add
+   {
+       font-size:16px;
+       font-weight:bold;     
+   }  
+   .Templete-box-2,.Templete-box-3,.Templete-box-4,.Templete-box-5,.Templete-box-6
+   {
+       border:3px solid lightgray;
+       border-radius:3px;
+       width:175px;
+       height:185px;
+       margin: auto;
+       position:relative;
+       margin-top: 10px;
+   }
+   .img-temp
+   {
+       width: 100%;
+       height:179px;
+       display:flex;
+       justify-content: center;
+   }
+   .temp-text-1
+   {
+       position: absolute;
+       width:100%;
+       background-color:#f1f5f8;
+       height:60px;
+       bottom:0px;
+       text-align: center;
+       font-weight:bold;
+       font-size:16px;
+       padding-block:15px;
+   }
+   .Template-Overall-Box,.Over-all-Template-2
+   {
+       display:flex;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+   }
+   .Templates-stepper-text-1,.Templates-stepper-text-2,.Templates-text-3,.Templates-stepper-text-4
+   {
+    display:none;
+   }
+   .check
+   {
+       color:white;
+   }
+   .Design
+    {
+        width:100%;
+        height: auto;
+        position: relative;
+        background-color:#f1f5f8;
+     }
+    .Design-Header
+    {
+        width: 100%;
+        height:80px;
+        background-color: white;
+        padding: 10px;
+        display:flex;
+        justify-content: space-between;
+        box-shadow:0px 2px #ecf1ec;       
+    }
+     .logo
+    {
+        width:90px;
+        height:20px;
+        margin-inline:08px;   
+        margin-block:15px;             
+    }
+    .logo-btn
+    {
+        background-color:#50C878;
+        width:90px;
+        height:25px;    
+        display:flex;
+        justify-content:center;  
+        border-radius:4px;  
+        margin-block:15px;   
+    }
+    .logo-text
+    {
+        color:white;
+        font-size:12px;
+        text-align:center;
+        padding-block-end:01px;
+        padding-block-start:05px;
+    }
+    .logo-header
+    {
+    display: flex;  
+    }
+    .Design-Side-Arrow
+    {
+       display:flex;   
+       padding-block:15px;    
+       padding-inline-start:40px;
+    }
+    .Design-back-left,.Design-back-right
+    {
+        background-color:#f1f5f8;
+        width:30px;
+        height:30px;
+        display:inline-flex;
+        text-align: center;
+        justify-content: center;
+        border-radius:4px;
+        padding-block:04px;
+        margin-right:20px;
+        margin-block:13px;
+    }
+    .Design-Stepper
+    {
+        display: flex;       
+        padding-block:15px;          
+    }
+    .Design-Step-3
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        background-color: #027aff;
+        display:block;
+        margin-inline:10%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        color:white;        
+    }
+    .Design-Step-4
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #e1ebee;
+        display:block;
+        margin-inline:10%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        
+    }
+    .Design-Step-1,.Design-Step-2
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #50C878;
+        display:block;
+        margin-inline:10%;
+        padding-inline:02px;
+        outline: none;
+        font-size:16px;
+        padding-block:02px;
+        background-color:#50C878;
+    }
+    .Design-Steper-btn-1
+    {
+        background-color:#027aff;
+        border: 1px solid #027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;
+        margin-left:10px ;
+        display:inline-flex;   
+        position:relative;
+        top:-6px;          
+    }
+    .check
+    {
+        color:white;
+    }   
+    .Design-stepper-text-1,.Design-stepper-text-2,.Design-stepper-text-3,.Design-stepper-text-4
+    {
+     display:none;
+    }
+    .Design-templates
+    {
+      width:65%;
+      height:480px;
+      background-color:white;
+      margin:auto;
+      margin-top: 60px;
+      border-radius:6px;
+      padding: 10px;
+    }
+    .Design-Add-image
+    {
+        border-style:dashed;
+        border-color:lightgray;
+        width: 80%;
+        height:210px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius:5px;
+        background-color:#f1f5f8;
+    }
+    .Design-Add-image > input{
+        display: none;
+    }
+    .Design-Drop-image
+    {
+        width:50px;
+        height:50px;
+        background-color:white;
+        display:flex;
+        text-align: center;
+        padding-inline:12px;
+        padding-block:10px;
+        margin-left:45%;
+        margin-top:75px;
+    }
+    .Design-t1
+    {
+        font-size: 16px;
+        font-weight: bold;
+        padding-block: 15px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-top:20px;
+    }
+    .Design-t2
+    {
+        font-size: 12px;     
+        padding-block:05px;
+        letter-spacing: 0.5px;
+        text-align: center;
+       }
+    .Design-view-website
+    {
+        width: 80%;
+        height:60px;
+        border: 2px solid #027aff;
+        border-radius: 5px;
+        margin: auto;
+        margin-top:10px;
+        position: relative;
+    }
+    .Design-view-website-btn
+    {
+       background-color: #50C878; 
+       color: white;
+       padding-block:3.5px;
+       border-radius:4px; 
+       width:140px;
+       height:30px;
+       display: flex;
+       justify-content:space-evenly; 
+        margin:auto; 
+        margin-top:13px;    
+    }
+    .Design-Content
+    {
+        display:grid;
+        grid-template-columns:240px auto;
+        margin-top: 2px;
+    }
+    .Design-Side-Content
+    {
+      width: 100%;
+      background-color:white;
+      padding:15px;
+    }
+    .Design-c1
+    {
+        font-size:16px;
+        font-weight: bold;
+        letter-spacing:1px;
+        padding-inline-start:60px;
+    }
+    .Design-side-c1
+    {
+        display:flex;
+     }
+     .Design-c2
+     {
+        font-size:13px;
+        font-weight:800;
+        padding-block: 10px;
+        padding-top:12px;
+        color:lightgray;
+        letter-spacing: 1px;
+     }
+     input[type=text] {
+        width:95%;
+        padding: 6px 1px;
+        padding-inline:5px;
+        text-align:left;         
+        box-sizing: border-box;     
+        border:2px solid #f1f5f8;
+        border-radius:4px;
+        display:block;
+      }
+      .Design-shapes
+      {
+        display:flex;
+        background-color:#f1f5f8;
+        width:200px;
+        padding:08px;
+        height:auto;
+        display:flex;
+        justify-content:space-between;
+        border-radius:6px;
+      }
+      input {
+        display: none; 
+        
+      }
+      .txt{
+        text-align:center;
+        padding-block:20px;
+      }
+      input:checked + .Design-label {
+        background-color:white;         
+        border-radius:5px;
+        color:black;
+        /* padding-inline:05px; */
+        padding:5px;
+      }
+      .Design-background-color
+      {
+          display:flex;
+          border:2px solid#f1f5f8;
+          border-radius:3px;
+          width: 95%;
+          height:35px;
+          justify-content:space-between;
+      }
+      .Design-backgreen-color
+      {
+          width:18px;
+          height:18px;
+          display: block;
+          background-color: #50C878;
+          border-radius:2px;
+          margin-block:5px;
+          margin-inline:8px;
+      }
+      .Design-backgreen-white
+      {
+        width:18px;
+        height:18px;
+        display: block;
+        border:1px solid black;
+        border-radius:2px;
+        margin-block:5px;
+        margin-inline:8px;
+    }
+      .Design-back-green-text
+      {
+        padding-block:05px;
+      }
+      .Design-back-green-label
+      {
+          display:flex;
+      }
+      .Design-back-green-icon
+      {
+          padding-block:5px;
+      }
+      select {
+        width:95%;
+        padding:7px;
+        border:2px solid #f1f5f8;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+      }
+      /* Triger-Events */
+      .Triger-Events
+      {
+          position: relative;                   
+      }
+      .Triger-Events-Header
+      {
+          width: 100%;
+          height:80px;
+          background-color: white;
+          padding: 10px;
+          display:flex;
+          justify-content: space-between;
+          box-shadow:0px 2px #ecf1ec;       
+      }    
+      .Triger-Events-side-arrows
+      {
+         display:flex;   
+         padding-block:15px;    
+         padding-inline-start:40px;
+      }
+      .Triger-Events-back-left,.Triger-Events-back-right
+      {
+          background-color:#f1f5f8;
+          width:30px;
+          height:30px;
+          display:inline-flex;
+          text-align: center;
+          justify-content: center;
+          border-radius:4px;
+          padding-block:04px;
+          margin-right:20px;
+          margin-block:13px;
+      }
+      .Triger-Events-Stepper
+      {
+          display: flex;   
+          padding-block:15px;    
+      }
+      .Triger-Events-Step-4
+      {
+          width:30px;
+          height:30px;
+          border-radius:50%;
+          border:1px solid #027aff;
+          background-color: #027aff;
+          display:block;
+          margin-inline:5%;
+          padding-inline:10px;
+          outline: none;
+          font-size:16px;
+          padding-block:05px;
+          color:white;        
+      }
+     
+     
+      .Triger-Events-Step-1,.Triger-Events-Step-2, .Triger-Events-Step-3
+      {
+          width:30px;
+          height:30px;
+          border-radius:50%;
+          border:1px solid #50C878;
+          display:block;
+          margin-inline:5%;
+          padding-inline:02px;
+          outline: none;
+          font-size:16px;
+          padding-block:02px;
+          background-color:#50C878;
+      }
+      .Triger-Events-Steper-btn-1
+      {
+          background-color:#027aff;
+          border:1px solid #027aff;
+          width:90px;
+          height:30px;
+          padding-inline:10px;
+          padding-block:5px;
+          color:white;
+          border-radius:3px;
+          margin-left:10px ;
+          display:inline-flex;   
+          position:relative;
+          top:-5px;          
+      }
+      .check
+      {
+          color:white;
+      }   
+      .Triger-Events-stepper-text-1,.Triger-Events-stepper-text-2,.Triger-Events-stepper-text-3,.Triger-Events-stepper-text-4
+      {
+       display:none;
+      }
+      
+      .Triger-Events-template-box-1,.Triger-Events-template-box-2
+      {
+          width:90%;
+          height:80px;
+          margin: auto;
+          display:flex;       
+          padding:10px;   
+          background-color:white;
+          border-radius:4px;   
+          margin-block:20px;
+          position: relative;
+      }
+      .Triger-Events-template-box-3
+      {
+          width:90%;
+          height:75px;
+          margin: auto;
+          display:flex;       
+          padding:10px; 
+          border-radius:4px;   
+          margin-block:20px;
+          position: relative;
+          background-color:rgb(210, 235, 243);
+          border-style: dashed;
+          border-color: lightskyblue;
+      }
+      .Triger-Events-t4-icons
+      {
+          background-color:rgb(252, 223, 223);
+          color:red;
+          display:block;
+          width:30px;
+          height:30px;
+          text-align: center;
+          padding-block:03px;
+          border-radius:50%;
+          margin-block:15px;
+      }
+      .Triger-Events-template-box-4
+      {
+          width:102%;
+          height:80px;
+          margin: auto;
+          display:flex;       
+          padding:10px; 
+          border-radius:4px;   
+          margin-block:20px;
+          background-color:white;
+          position: absolute;
+          bottom:-150px;
+          left:-10px;
+          display:none;
+      }
+      .Triger-Events-t6-icons
+      {
+          color:lightgray;
+      }
+      .Triger-Events-absolute-text
+      {
+        font-weight: bold;
+      }
+      .Triger-Events-t1-icons
+      {
+          color:#50C878;
+          background-color:rgb(198, 238, 198);
+          display:block;
+          width:30px;
+          height:30px;
+          text-align: center;
+          padding-block:03px;
+          border-radius:50%;
+          margin-block:15px;
+      }
+      .Triger-Events-t2-icons
+      {
+          color:#027aff;
+          background-color:rgb(168, 223, 236);
+          display:block;
+          width:30px;
+          height:30px;
+          text-align: center;
+          padding-block:03px;
+          border-radius:50%;
+          margin-block:15px;
+      }
+      .Triger-Events-t3-icons
+      {
+          color:#027aff;
+          background-color:white;
+          display:block;
+          width:40px;
+          height:40px;
+          text-align: center;
+          font-size:18px;
+          padding-block:08px;
+          border-radius:50%;
+          margin-block:08px;
+          margin-left:45%;
+      }
+      .Triger-Events-tem-t1
+      {
+          font-size:14px;
+          font-weight: bold;
+      }
+      .Triger-Events-tem-t2
+      {
+          font-size:13px;
+          color: lightgrey;
+      }
+      .Triger-Events-templates-text
+      {
+          padding-inline-start: 10px;
+          padding-block:12px;
+      }
+      .Triger-Events-end-icon
+      {
+       position: absolute;
+       right: 10px;
+      }
+      .Triger-Events-Content
+      {
+          display:grid;
+          grid-template-columns:280px auto;
+          margin-top: 2px;
+      }
+      .Triger-Events-side-content
+      {
+        width: 100%;
+        height:calc(100vh - 82px);
+        background-color:white;
+        padding:15px;
+      }
+      .Triger-Events-c1
+      {
+          font-size:16px;
+          font-weight: bold;
+          letter-spacing:1px;
+          padding-inline-start:60px;
+      }
+      .Triger-Events-side-c1
+      {
+          display:flex;
+       }
+       .Triger-Events-shapes
+       {
+         display:flex;
+         background-color:#f1f5f8;
+         width:270pxpx;
+         padding:15px;
+         height:auto;
+         display:flex;
+         justify-content:space-between;
+         border-radius:6px;
+       }
+       input {
+          display: none; 
+          
+        }
+        input:checked + .Triger-Events-label {
+          background-color:white;         
+          border-radius:5px;
+          color:black;
+          padding:5px;
+        }
+        .Triger-Events-c1-header
+        {
+            font-size: 13px;
+            font-weight: bold;
+            color:lightgrey;
+            padding-block:10px;
+        }
+        .Triger-Events-a1-box,.Triger-Events-a2-box,.Triger-Events-a3-box,.Triger-Events-a4-box,.Triger-Events-a6-box,.Triger-Events-a7-box,.Triger-Events-a8-box
+        {
+            width:99%;
+            height:46px;
+            margin-left:0px;
+            border:1px solid lightgrey;
+            border-radius: 3px;
+            display:flex;
+            margin-block:10px;
+        }
+        .Triger-Events-a5-box
+        { width:99%;
+          height:45px;
+          margin-left:0px;
+          border:1px solid lightgrey;
+          border-radius: 3px;
+          display:flex;
+          margin-block:10px;
+          background-color:#ecf1ec;
+      }
+        .Triger-Events-a1-icons
+        {
+            color:grey;
+            padding-block-start:10px;
+            padding-inline: 10px;
+        }
+        .Triger-Events-a1-text-t1 {
+            font-size: 16px;
+            font-weight:bold;
+            padding-block-start:12px;
+        }
+}
+@media only screen and (min-width:1025px) and (max-width:2645px) 
+{
+    .Detail-Header
+    {
+        padding:10px;
+        width:100%;
+        height:75px;
+        background-color:white;
+        display:flex;
+        justify-content: space-between;
+    }
+   .logo
+    {
+        width:90px;
+        height:20px;
+        margin-inline:10px;            
+    }
+    .logo-btn
+    {
+        background-color:#08cc8c;
+        width:90px;
+        height:25px;    
+        display:flex;
+        justify-content:center;  
+        border-radius:4px;    
+    }
+    .logo-text
+    {
+        color:white;
+        font-size:12px;
+        text-align:center;
+        padding-block-end:01px;
+        padding-block-start:05px;
+    }
+    .logo-header
+    {
+    display: flex;  
+    }
+    .Details-Stepper
+    {
+        display: flex;
+        justify-content:center;
+        padding-block:10px;
+        width:80%;
+    }
+    .Details-Step-1,.Details-Step-2,.Details-Step-3,.Details-Step-4
+  
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:2px solid #eef0f2;
+        display:block;
+        margin-inline:5%;
+        padding-inline:08px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        
+    }
+    .Details-Step-1
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        background-color:#027aff;
+    }
+    .Details-stepper-text-1
+    {
+        font-size:14px;
+        font-weight:bold;
+        color:black;
+        letter-spacing:0.5px;
+        padding-block:06px;
+        padding-inline-end:05px;
+    }
+    .Details-stepper-text-2,.Details-stepper-text-3
+     {
+       font-size:15px;
+       font-weight:bold;
+       color:lightgray;
+       letter-spacing:0.5px;
+       padding-block:06px;
+       padding-inline-end:05px;
+   }
+   .Details-stepper-text-4
+   {
+       font-size:15px;
+       font-weight:bold;
+       color:lightgray;
+       letter-spacing:0.5px;
+       padding-block:5px;
+       padding-inline-end:05px;
+   }
+    .Details-Steper-btn-1
+    {
+        background-color:#027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;
+        margin-left:10px  ;
+        margin-top:10px;
+        font-weight: bold;
+        letter-spacing:1px;
+        border: 1px solid #027aff;
+    }
+   
+    .Form
+     {
+         width:50%;
+         height:auto;
+         background-color:white;
+         margin:auto;
+         margin-top:30px;
+         border-radius: 4px;
+         padding:15px;
+     }
+   
+    .check
+    {
+        color:white;
+    }   
+    .from-details-header
+    {
+        font-size:24px;
+        font-weight: bold;
+        padding:10px;
+    }
+    .from-details
+    {
+        font-size:16px;     
+        word-spacing: 2px;   
+        padding-inline-start:10px;
+        padding-block-end:15px;
+       
+    }
+    .hrq
+    {
+        background-color:lightgray;
+       
+    }
+   .form-name
+   {
+     display: block;
+     font-size:14px;
+     font-weight: bold;
+     padding-inline-start: 10px;
+     padding-top: 08px;
+     padding-bottom:4px;
+   }  
+   input[type=email] {
+
+    display: block;
+    width:95%;
+    padding:08px;
+    border-radius:4px;
+    border:2px solid #f1f5f8;
+    margin-inline-start:10px;
+    margin-block-end:12px;
+   }
+   input[type=text] {
+    width:95%;
+    padding:08px;
+    border-radius:4px;
+    border:2px solid #f1f5f8;
+    margin-inline-start:10px;
+    margin-block-end:12px;
+   }
+  
+ .Gender,.Country
+   {
+     display: block;
+     margin-inline-start:10px;
+     width:25%;
+     padding: 05px;
+     margin-block-end:5px;
+     border:2px solid #f1f5f8;
+   }
+   .form-btn
+   {
+       font-size:14px;
+       font-weight: bold;
+       background-color:#f1f5f8;
+       border:2px solid #f1f5f8;
+       margin-inline-start: 10px;
+       margin-top:10px;
+       padding-block:04px;
+       padding-inline:10px;
+       border-radius:3px;
+   }
+     /* Templates */
+ .Templates-Side-Arrow
+ {
+    margin-left:20px;
+    margin-top:17px;
+ }
+ 
+ .Templates-Header
+ {
+    padding: 10px;
+    width:100%;
+    height:80px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+ }
+ .Templates-Stepper
+   {
+       display: flex;
+       justify-content:center;
+       padding-block:15px;
+       width:75%;
+   }
+   .Templates-stepper-text-2
+   {
+    font-size:15px;
+    font-weight:bold;     
+    letter-spacing:0.5px;    
+    padding-block:06px;
+    padding-inline-end:05px;
+   }
+   .Templates-stepper-text-1
+   {
+       font-size:15px;
+       font-weight:bold;     
+       letter-spacing:0.5px;
+       color:lightgray;
+       padding-block:06px;
+       padding-inline-end:05px;
+   }
+  .Templates-text-3
+     {
+       font-size:15px;
+       font-weight:bold;
+       color:lightgray;
+       letter-spacing:0.5px;
+       padding-block:06px;
+       padding-inline-end:05px;
+   }
+   .Templates-stepper-text-4
+   {
+       font-size:15px;
+       font-weight:bold;
+       color:lightgray;
+       letter-spacing:0.5px;
+       padding-block:08px;
+       padding-inline-end:05px;
+   }
+   .Templates-Step-1,.Templates-Step-2,.Templates-Step-3,.Templates-Step-4{
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid grey;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       
+   }
+   .Templates-Step-2
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #027aff;
+       color:white;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       background-color:#027aff;
+   }
+   .Templates-Step-1
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #50C878;
+       display:block;
+       margin-inline:5%;
+       padding-inline:02px;
+       outline: none;
+       font-size:16px;
+       padding-block:02px;
+       background-color:#50C878;
+   }
+   .Templates-Steper-btn-1
+   {
+       background-color:#027aff;
+       width:90px;
+       height:30px;
+       padding-inline:10px;
+       padding-block:5px;
+       color:white;
+       border-radius:3px;
+       margin-left:10px ;
+       margin-top: 15px;
+       border:1px solid #027aff;
+   }
+   .Templates-Content
+   {   
+       background-color:white;
+       width:50%;
+       height:auto;
+       margin: auto;
+       position:relative;
+       top:5%;
+       border-radius:05px;
+       padding:05px;
+       padding-block-end:25px;
+       margin-block:30px;
+   }
+   .Templete-t1
+   {
+       font-size:18px;
+       font-weight:bold;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-t2
+   {
+       font-size:13px;
+       text-align:center;
+       padding-block:10px;
+   }
+   .Templete-box-1
+   {
+       width:175px;
+       height:182px;
+       border-style: dashed;
+       border-color: lightgray;
+       margin: auto;
+       border-radius:3px;
+       background-color:#f1f5f8;
+       text-align: center;
+       margin-top:10px;
+   }
+   .Scrath
+   {
+       font-size:20px;
+       background-color:white;     
+       width:40px;
+       height:40px;
+       display:block;
+       color:skyblue;
+       font-weight:bold;
+       text-align:center;
+       align-items:center;
+       border-radius:6px; 
+       margin-left:40%; 
+       padding-block:08px; 
+       margin-block:10px;    
+       margin-top:80px;       
+   }
+
+   .templete-add
+   {
+       font-size:16px;
+       font-weight:bold;     
+   }  
+   .Templete-box-2,.Templete-box-3,.Templete-box-4,.Templete-box-5,.Templete-box-6
+   {
+       border:3px solid lightgray;
+       border-radius:3px;
+       width:175px;
+       height:185px;
+       margin: auto;
+       position:relative;
+       margin-top: 10px;
+   }
+   .img-temp
+   {
+       width: 100%;
+       height:179px;
+       display:flex;
+       justify-content: center;
+   }
+   .temp-text-1
+   {
+       position: absolute;
+       width:100%;
+       background-color:#f1f5f8;
+       height:60px;
+       bottom:0px;
+       text-align: center;
+       font-weight:bold;
+       font-size:16px;
+       padding-block:15px;
+   }
+   .Template-Overall-Box,.Over-all-Template-2
+   {
+       display:flex;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+   }
+   
+   .check
+   {
+       color:white;
+   }
+   
+   .Design
+    {
+    position: relative;             
+    }
+    .Design-Header
+    {
+        width: 100%;
+        height:80px;
+        background-color: white;
+        padding: 10px;
+        display:flex;
+        justify-content: space-between;
+        box-shadow:0px 2px #ecf1ec;       
+    }
+     .logo
+    {
+        width:90px;
+        height:20px;
+        margin-inline:08px;   
+        margin-block:15px;             
+    }
+    .logo-btn
+    {
+        background-color:#50C878;
+        width:90px;
+        height:25px;    
+        display:flex;
+        justify-content:center;  
+        border-radius:4px;  
+        margin-block:15px;   
+    }
+    .logo-text
+    {
+        color:white;
+        font-size:12px;
+        text-align:center;
+        padding-block-end:01px;
+        padding-block-start:05px;
+    }
+    .logo-header
+    {
+    display: flex;  
+    }
+    .Design-Side-Arrow
+    {
+       display:flex;   
+       padding-block:15px;    
+       padding-inline-start:40px;
+    }
+    .Design-back-left,.Design-back-right
+    {
+        background-color:#f1f5f8;
+        width:30px;
+        height:30px;
+        display:inline-flex;
+        text-align: center;
+        justify-content: center;
+        border-radius:4px;
+        padding-block:04px;
+        margin-right:20px;
+        margin-block:13px;
+    }
+    .Design-Stepper
+    {
+        display: flex;   
+        padding-block:15px;    
+        width: 50%;
+    }
+    .Design-Step-3
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #027aff;
+        background-color: #027aff;
+        display:block;
+        margin-inline:5%;
+        padding-inline:10px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        color:white;        
+    }
+    .Design-Step-4
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:2px solid #e1ebee;
+        display:block;
+        margin-inline:5%;
+        padding-inline:08px;
+        outline: none;
+        font-size:16px;
+        padding-block:05px;
+        
+    }
+    .Design-Step-1,.Design-Step-2
+    {
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        border:1px solid #50C878;
+        display:block;
+        margin-inline:5%;
+        padding-inline:02px;
+        outline: none;
+        font-size:16px;
+        padding-block:02px;
+        background-color:#50C878;
+    }
+    .Design-Steper-btn-1
+    {
+        background-color:#027aff;
+        border: 1px solid #027aff;
+        width:90px;
+        height:30px;
+        padding-inline:10px;
+        padding-block:5px;
+        color:white;
+        border-radius:3px;
+        margin-left:10px ;
+        display:inline-flex;   
+        position:relative;
+        top:-5px;          
+    }
+    .check
+    {
+        color:white;
+    }  
+    .Design-stepper-text-1,.Design-stepper-text-2,.Design-stepper-text-3,.Design-stepper-text-4
+    {
+      padding-block:05px;
+      display:block;
+      font-size:14px;
+      color:lightgray;
+      font-weight: bold;
+    }
+    .Design-stepper-text-3
+    {
+    padding-block:05px;
+      display:block;
+      font-size:14px;
+      color:black;
+      font-weight: bold;
+    } 
+    
+    .Design-templates
+    {
+      width:60%;
+      height:480px;
+      background-color:white;
+      margin:auto;
+      margin-top: 60px;
+      border-radius:6px;
+      padding: 10px;
+    }
+    .Design-Add-image
+    {
+        border-style:dashed;
+        border-color:lightgray;
+        width: 80%;
+        height:210px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius:5px;
+        background-color:#f1f5f8;
+    }
+    .Design-Add-image > input{
+        display: none;
+    }
+    .Design-Drop-image
+    {
+        width:50px;
+        height:50px;
+        background-color:white;
+        display:flex;
+        text-align: center;
+        padding-inline:12px;
+        padding-block:10px;
+        margin-left:45%;
+        margin-top:75px;
+    }
+    .Design-t1
+    {
+        font-size: 16px;
+        font-weight: bold;
+        padding-block: 15px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-top:20px;
+    }
+    .Design-t2
+    {
+        font-size: 12px;     
+        padding-block:05px;
+        letter-spacing: 0.5px;
+        text-align: center;
+       }
+    .Design-view-website
+    {
+        width: 80%;
+        height:60px;
+        border: 2px solid #027aff;
+        border-radius: 5px;
+        margin: auto;
+        margin-top:10px;
+        position: relative;
+    }
+    .Design-view-website-btn
+    {
+       background-color: #50C878; 
+       color: white;
+       padding-block:3.5px;
+       border-radius:4px; 
+       width:140px;
+       height:30px;
+       display: flex;
+       justify-content:space-evenly; 
+        margin:auto; 
+        margin-top:13px;    
+    }
+    .Design-Content
+    {
+        display:grid;
+        grid-template-columns:240px auto;
+        margin-top: 2px;
+    }
+    .Design-Side-Content
+    {
+      width: 100%;
+      background-color:white;
+      padding:10px;
+      height:calc(100vh - 80px);
+      padding-block:15%;
+    }
+    .Design-c1
+    {
+        font-size:16px;
+        font-weight: bold;
+        letter-spacing:1px;
+        padding-inline-start:60px;
+    }
+    .Design-side-c1
+    {
+        display:flex;
+     }
+     .Design-c2
+     {
+        font-size:13px;
+        font-weight:800;
+        padding-block:06%;
+        padding-top:12px;
+        color:lightgray;
+        letter-spacing: 1px;
+     }
+     input[type=text] {
+        width:95%;
+        padding: 6px 1px;
+        padding-inline:5px;
+        text-align:left;         
+        box-sizing: border-box;     
+        border:2px solid #f1f5f8;
+        border-radius:4px;
+        display:block;
+      }
+      .Design-shapes
+      {
+        display:flex;
+        background-color:#f1f5f8;
+        width:200px;
+        padding:08px;
+        height:auto;
+        display:flex;
+        justify-content:space-between;
+        border-radius:6px;
+      }
+     
+      input:checked + .Design-label {
+        background-color:white;         
+        border-radius:5px;
+        color:black;
+        /* padding-inline:05px; */
+        padding:5px;
+      }
+      input:checked + .label {
+        background-color:white;         
+        border-radius:5px;
+        color:black;
+        /* padding-inline:05px; */
+        padding:5px;
+      }
+      .Design-background-color
+      {
+          display:flex;
+          border:2px solid#f1f5f8;
+          border-radius:3px;
+          width: 95%;
+          height:35px;
+          justify-content:space-between;
+      }
+      .Design-backgreen-color
+      {
+          width:18px;
+          height:18px;
+          display: block;
+          background-color: #50C878;
+          border-radius:2px;
+          margin-block:5px;
+          margin-inline:8px;
+      }
+      .Design-backgreen-white
+      {
+        width:18px;
+        height:18px;
+        display: block;
+        border:1px solid black;
+        border-radius:2px;
+        margin-block:5px;
+        margin-inline:8px;
+    }
+      .Design-back-green-text
+      {
+        padding-block:05px;
+      }
+      .txt{
+        text-align:center;
+        padding-block:20px;
+      }
+      .Design-back-green-label
+      {
+          display:flex;
+      }
+      .Design-back-green-icon
+      {
+          padding-block:5px;
+      }
+      select {
+        width:95%;
+        padding:7px;
+        border:2px solid #f1f5f8;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+      }
+   /* Triger-Events */
+   .Triger-Events
+   {
+       position: relative;
+       }
+   .Triger-Events-Header
+   {
+       width: 100%;
+       height:80px;
+       background-color: white;
+       padding: 10px;
+       display:flex;
+       justify-content: space-between;
+       box-shadow:0px 2px #ecf1ec;       
+   }
+   
+   .Triger-Events-side-arrows
+   {
+      display:flex;   
+      padding-block:15px;    
+      padding-inline-start:40px;
+   }
+   .Triger-Events-back-left,.Triger-Events-back-right
+   {
+       background-color:#f1f5f8;
+       width:30px;
+       height:30px;
+       display:inline-flex;
+       text-align: center;
+       justify-content: center;
+       border-radius:4px;
+       padding-block:04px;
+       margin-right:10px;
+       margin-block:13px;
+   }
+   .Triger-Events-Stepper
+   {
+       display: flex;   
+       padding-block:15px;
+       width:50%;    
+   }
+
+   .Triger-Events-Step-4
+   {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #027aff;
+       background-color: #027aff;
+       display:block;
+       margin-inline:5%;
+       padding-inline:10px;
+       outline: none;
+       font-size:16px;
+       padding-block:05px;
+       color:white;        
+   }   
+   
+   .Triger-Events-Step-1,.Triger-Events-Step-2, .Triger-Events-Step-3
+    {
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       border:1px solid #50C878;
+       display:block;
+       margin-inline:5%;
+       padding-inline:02px;
+       outline: none;
+       font-size:16px;
+       padding-block:02px;
+       background-color:#50C878;
+   }
+   .Triger-Events-Steper-btn-1
+   {
+       background-color:#027aff;
+       border:1px solid #027aff;
+       width:90px;
+       height:30px;
+       padding-inline:10px;
+       padding-block:5px;
+       color:white;
+       border-radius:3px;
+       margin-left:10px ;
+       display:inline-flex;   
+       position:relative;
+       top:-5px;          
+   }
+   .check
+   {
+       color:white;
+   }   
+   .Triger-Events-stepper-text-1,.Triger-Events-stepper-text-2,.Triger-Events-stepper-text-3,.Triger-Events-stepper-text-4
+   {
+     padding-block:05px;
+     display:block;
+     font-size:14px;
+     color:lightgray;
+     font-weight: bold;
+   }
+   .Triger-Events-stepper-text-4
+   {
+   padding-block:05px;
+     display:block;
+     font-size:14px;
+     color:black;
+     font-weight: bold;
+   }
+   .Triger-Events-template-box-1,.Triger-Events-template-box-2
+   {
+       width:30%;
+       height:80px;
+       margin: auto;
+       display:flex;       
+       padding:10px;   
+       background-color:white;
+       border-radius:4px;   
+       margin-block:20px;
+       position: relative;
+   }
+   .Triger-Events-template-box-3
+   {
+       width:30%;
+       height:80px;
+       margin: auto;
+       display:flex;       
+       padding:10px; 
+       border-radius:4px;   
+       margin-block:20px;
+       position: relative;
+       background-color:rgb(210, 235, 243);
+       border-style: dashed;
+       border-color: lightskyblue;
+   }
+   .Triger-Events-template-box-4
+   {
+       width:102%;
+       height:85px;
+       margin: auto;
+       display:flex;       
+       padding:10px;       
+       border-radius:4px;   
+       margin-block:20px;
+       position: relative;
+       background-color:white;       
+       position: absolute;
+       left:-3px;
+       bottom:-150px;
+       display:none;
+   }
+   .Triger-Events-t6-icons
+   {
+       color:lightgray;
+   }
+   .Triger-Events-absolute-text
+   {
+     font-weight: bold;
+   }
+   .Triger-Events-t1-icons
+   {
+       color:#50C878;
+       background-color:rgb(198, 238, 198);
+       display:block;
+       width:30px;
+       height:30px;
+       text-align: center;
+       padding-block:03px;
+       border-radius:50%;
+       margin-block:15px;
+   }
+   .Triger-Events-t2-icons
+   {
+       color:#027aff;
+       background-color:rgb(168, 223, 236);
+       display:block;
+       width:30px;
+       height:30px;
+       text-align: center;
+       padding-block:03px;
+       border-radius:50%;
+       margin-block:15px;
+   }
+   .Triger-Events-t3-icons
+   {
+       color:#027aff;
+       background-color:white;
+       display:block;
+       width:40px;
+       height:40px;
+       text-align: center;
+       font-size:18px;
+       padding-block:08px;
+       border-radius:50%;
+       margin-block:08px;
+       margin-left:45%;
+   }
+   .Triger-Events-t4-icons
+   {
+       background-color:rgb(252, 223, 223);
+       color:red;
+       display:block;
+       width:30px;
+       height:30px;
+       text-align: center;
+       padding-block:03px;
+       border-radius:50%;
+       margin-block:15px;
+   }
+   .Triger-Events-tem-t1
+   {
+       font-size:14px;
+       font-weight: bold;
+   }
+   .Triger-Events-tem-t2
+   {
+       font-size:13px;
+       color: lightgrey;
+   }
+   .Triger-Events-templates-text
+   {
+       padding-inline-start: 10px;
+       padding-block:12px;
+   }
+   .Triger-Events-end-icon
+   {
+    position: absolute;
+    right: 10px;
+   }
+   .Triger-Events-Content
+   {
+       display:grid;
+       grid-template-columns:280px auto;
+       margin-top: 2px;
+   }
+   .Triger-Events-side-content
+   {
+     width: 100%;
+     height:calc(100vh - 82px);
+     background-color:white;
+     padding:15px;
+   }
+   .Triger-Events-c1
+   {
+       font-size:16px;
+       font-weight: bold;
+       letter-spacing:1px;
+       padding-inline-start:60px;
+   }
+   .Triger-Events-side-c1
+   {
+       display:flex;
+    }
+    .Triger-Events-shapes
+    {
+      display:flex;
+      background-color:#f1f5f8;
+      width:270pxpx;
+      padding:15px;
+      height:auto;
+      display:flex;
+      justify-content:space-between;
+      border-radius:6px;
+    }
+    input {
+       display: none; 
+       
+     }
+     input:checked + .Triger-Events-label {
+       background-color:white;         
+       border-radius:5px;
+       color:black;
+       /* padding-inline:05px; */
+       padding:5px;
+     }
+     .Triger-Events-c1-header
+     {
+         font-size: 13px;
+         font-weight: bold;
+         color:lightgrey;
+         padding-block:10px;
+     }
+     .Triger-Events-a1-box,.Triger-Events-a2-box,.Triger-Events-a3-box,.Triger-Events-a4-box,.Triger-Events-a6-box,.Triger-Events-a7-box,.Triger-Events-a8-box
+         {
+         width:99%;
+         height:46px;
+         margin-left:0px;
+         border:1px solid lightgrey;
+         border-radius: 3px;
+         display:flex;
+         margin-block:10px;
+     }
+     .Triger-Events-a5-box
+     { width:99%;
+       height:45px;
+       margin-left:0px;
+       border:1px solid lightgrey;
+       border-radius: 3px;
+       display:flex;
+       margin-block:10px;
+       background-color:#ecf1ec;
+   }
+   .Triger-Events-a1-icons
+     {
+         color:grey;
+         padding-block-start:10px;
+         padding-inline: 10px;
+     }
+     .Triger-Events-a1-text-t1 {
+         font-size: 16px;
+         font-weight:bold;
+         padding-block-start:12px;
+     }
+     .Triger-Events-templates
+   {
+       display:flex;
+       width: 100%;
+       padding-block:40px;
+   }
+}
